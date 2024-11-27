@@ -1,4 +1,4 @@
-version: '3.9'  # Remove "version" se estiver usando Docker Compose V2 ou mais recente
+version: '3.9'  
 
 services:
   backend:
