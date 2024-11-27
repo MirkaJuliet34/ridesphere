@@ -124,10 +124,9 @@ Cobertura de código de controladores e serviços.
 Testes de componentes com React Testing Library.
 Validação de interfaces e interatividade.
 
-## 🌟 Postman e PostgreSQL
-```bash
-   docker-compose up --build
-````
+## 🌟 Postman (Para Requisições)
+## 🎲 PostgreSQL (Para Banco de Dados Relacional)
+
 ## 🐳 Docker: Configuração e Execução
 
 O **NexTrip** foi totalmente containerizado com **Docker** para facilitar a configuração e execução do projeto.
@@ -136,21 +135,14 @@ O **NexTrip** foi totalmente containerizado com **Docker** para facilitar a conf
 - **`Dockerfile`**: Configuração do ambiente para frontend e backend.
 - **`docker-compose.yml`**: Configuração para gerenciar os containers e serviços do projeto.
 
-### 🖼️ Imagens
-1. **Docker Image**  
-   ![Docker](assets/docker.png)
-
-2. **Docker Container**  
-   ![Docker](assets/docker-2.png)
-
-3. **Subir os containers do projeto (frontend, backend, banco de dados)**:
+1. **Subir os containers do projeto (frontend, backend, banco de dados)**:
    ```bash
    docker-compose up --build
-4. **Parar os containers em execução**:
+2. **Parar os containers em execução**:
    ```bash
    docker-compose down
 
-5. **Verificar logs dos containers**:
+3. **Verificar logs dos containers**:
    ```bash
    docker-compose logs -f
 
